@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-container  { 
+    background-color: rgb(5, 5, 49);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+}
+
+.title-container {
+    display: flex;
+}
+
+#cover-img {
+    width: 300px;
+    height: 150px;
+}
+
+.content {
+    background-color: white;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.info>img {
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-self: center;
+}
+
+.quote {
+    background-color: rgb(189, 176, 176);
+}
+
+.sign-up {
+    background-color: white;
+}
+
+.footer {
+    background-color: rgb(5, 5, 49);
+}

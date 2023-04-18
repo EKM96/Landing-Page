@@ -123,8 +123,25 @@ button.last {
     gap: 8px;
 }
 
-.quote {
+.quote-container {
     background-color: rgb(189, 176, 176);
+    padding: 64px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+.quote-ref {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+    padding-right: 48px;
 }
 
 .sign-up {

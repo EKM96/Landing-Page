@@ -9,7 +9,7 @@ body {
 }
 
 .header-container  { 
-    background-color: rgb(2, 2, 27);
+    background-color: #1F2937;
     padding: 12px 140px;
     height: 800px;
 }
@@ -172,6 +172,11 @@ button.right {
 }
 
 .footer {
-    background-color:rgb(2, 2, 27);
+    background-color:#1F2937;
+    padding: 32px 0;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: normal;
 }
+
 

@@ -10,7 +10,7 @@ body {
 
 .header-container  { 
     background-color: rgb(2, 2, 27);
-    padding: 12px 120px;
+    padding: 12px 140px;
     height: 800px;
 }
 
@@ -62,21 +62,22 @@ a {
 }
 
 button {
-    padding: 8px 24px;
+    padding: 8px 32px;
     border-radius: 8px;
     font-weight: bold;
+    font-size: 18px;
 }
 
 button.first {
     background: #3882f6;
-    border: 1px solid #3882f6;
+    border: 2px solid #3882f6;
     color: white;
 }
 
-button.last {
-    background: white;
-    border: 1px solid #ddd;
-    color: #3882f6;
+button.right {
+    background: #3882f6;
+    border: 2px solid white;
+    color: white;
 }
 
 #cover-img {
@@ -144,10 +145,33 @@ button.last {
     padding-right: 48px;
 }
 
-.sign-up {
-    background-color: white;
+.sign-up-container {
+    background-color:  #3882f6;
+    margin: 64px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 72px;
+    border-radius: 8px;
+}
+
+.left {
+    text-align: left;
+}
+
+.action-header {
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+}
+
+.action-text {
+    font-weight: normal;
+    font-size: 18px;
+    color: #F9FAF8; 
 }
 
 .footer {
     background-color:rgb(2, 2, 27);
 }
+
